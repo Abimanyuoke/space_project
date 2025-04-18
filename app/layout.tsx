@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import StarsCanvas from "@/components/main/StarBackground";
+import Navbar from "@/components/main/Navbar";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,6 +18,8 @@ export default function RootLayout({
       <body
         className={`bg-[#030014] overflow-x-hidden overflow-y-hidden`}
       >
+        <StarsCanvas/>
+        <Navbar/>
         {children}
       </body>
     </html>
