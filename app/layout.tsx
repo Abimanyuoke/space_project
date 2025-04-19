@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`bg-[#030014] overflow-x-hidden overflow-y-hidden`}
+        className={`bg-[#030014]  overflow-x-hidden`}
       >
         <StarsCanvas/>
         <Navbar/>
