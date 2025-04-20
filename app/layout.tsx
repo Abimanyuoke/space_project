@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import StarsCanvas from "@/components/main/StarBackground";
 import Navbar from "@/components/main/Navbar";
+import Footer from "@/components/main/Footer";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -21,6 +22,7 @@ export default function RootLayout({
         <StarsCanvas/>
         <Navbar/>
         {children}
+        <Footer/>
       </body>
     </html>
   );
